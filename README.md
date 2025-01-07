@@ -52,7 +52,7 @@ URL de imagen
 Eliminar producto:
 Cada producto incluye un botón para eliminarlo.
 
-Modal interactivo:
+Ventana interactiva:
 Al hacer clic en una imagen, se abre un modal con una vista ampliada.
 
 👨‍💻 Proyecto derarrollado para ALURA LATAM 2024 En el programa ORACLE NEXT EDUCATION
