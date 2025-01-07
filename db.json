@@ -1,0 +1,22 @@
+{
+  "productos": [
+    {
+      "id": "057a",
+      "nombre": "Café Arabica Gourmet 500g",
+      "precio": "US$15",
+      "imagen": "https://cdn.pixabay.com/photo/2016/11/19/12/54/drink-1839134_1280.jpg"
+    },
+    {
+      "id": "dd00",
+      "nombre": "Kit de Café Cold Brew",
+      "precio": "US$35",
+      "imagen": "https://cdn.pixabay.com/photo/2018/10/06/11/22/coffee-3727673_1280.jpg"
+    },
+    {
+      "id": "7c10",
+      "nombre": "Taza de Café Minimalista",
+      "precio": "US$12",
+      "imagen": "https://cdn.pixabay.com/photo/2020/02/19/16/27/coffee-4862622_1280.jpg"
+    }
+  ]
+}

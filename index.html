@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Café de Colombia</title>
+    <link rel="icon" href=".//images/icon.png" type="image/png">
+    <script src="https://kit.fontawesome.com/1f9c34aa5b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Tienda de Café Alura <img src="./images/icon.png"></h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección principal de productos -->
+        <section class="productos">
+            <h2>MIS PRODUCTOS:</h2>
+            <div class="grid-productos">
+                <!-- Cada producto -->
+                <article hidden class="producto-nuevo">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                    <button class="eliminar" aria-label="Eliminar producto"><i class="fa-solid fa-trash"></i></button>
+                </article>
+                
+            </div>
+        </section>
+
+        <!-- Sección secundaria para agregar productos -->
+        <aside class="agregar-producto">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="add-product-form">
+                <label for="nombre">Nombre del producto:</label>
+                <input type="text" id="nombre" placeholder="nombre..." required>
+                
+                <label for="precio">Precio del producto:</label>
+                <input type="text" id="precio" placeholder="precio..." required>
+                
+                <label for="imagen">URL de la imagen:</label>
+                <input type="text" id="imagen" placeholder="imagen..." required>
+                
+                <div class="botones">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpiar</button>
+                </div>
+            </form>
+        </aside>
+
+                <!-- Modal -->
+        <div id="modal" class="modal" onclick="closeModal()">
+            <div class="modal-content">
+                <img id="modal-image" src="" alt="Producto">
+                <h3 id="modal-title"></h3>
+            </div>
+        </div>
+
+
+    </main>
+
+    <footer>
+        <p>
+           Desarrollado por Jesús Aguirre
+            </a><br>
+            ALURA LATAM - 2024
+        </p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
